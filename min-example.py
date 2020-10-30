@@ -20,7 +20,8 @@ def run_episode(params):
 params = np.random.rand(4)
 bestreward = 0
 step = 0
-step_scaling = 0.5
+step_scaling = 0.25
+
 
 for _ in range(10000):
     step += 1
